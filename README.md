@@ -12,3 +12,6 @@ B. Menu Input Penerimaan Bantuan
     
 C. Menu Data Penerimaan Bantuan
    Menu halaman ini menampilkan daftar data penerimaan bantuan covid-19. File yang mengatur terdapat pada file daftar.php. Fungsi berbeda yang terdapat dalam halaman ini yaitu adanya fungsi function dengan nama rupiah(). Function menyimpan konfigurasi format dalam menampilkan data nilai rupiah. Fungsi number_format() berguna untuk mengubah format angka dengan menggunakan titik untuk menentukan angka puluhan, ratusan, atau ribuan). Data disajikan dengan menggunakan tabel. Lalu terdapat perintah SELECT yang berfungsi untuk menampilan data dari tabel data_bantuan didalam database. Kueri tersebut disimpan dalam variabel $sql dan dieksekusi dengan fungsi mysqli_query disimpan didalam variabel $query. Fungsi while dibuat untuk perulangan data yang akan ditampilkan dengan berbentuk array dengan fungsi mysqli_fetch_array disimpan dalam variabel $data. Selanjutnya data ditampilkan atau dicetak kehalaman dengan fungsi echo dalam tag <tbody>. Terdapat fungsi link dengan tag <a> (href digunakan untuk mengarahkan file yang akan dituju jika ditekan) yang digunakan untuk mengedit data (dialihkan kehalaman dengan file "edit.php" dan menghapus data (dialihkan kehalaman dengan file hapus.php). (Edit|Hapus). 
+   - Menu Edit
+     Menu yang digunakan untuk 
+
